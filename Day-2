@@ -1,0 +1,26 @@
+#Use of find Data types
+name = 'Aadi'
+age = 19
+intrest = 'Coding'
+isEduyear = True
+print(type(age))
+print(type(isEduyear))
+
+#use of format method
+name = 'shiv'
+age = 19
+intrest = 'Gaming'
+isEduyear = False
+print("my name is "+name+".")
+print("My name is {}.Gaming is my intrest".format(name,intrest))
+
+#Converting DataTypes
+a=10
+b = str(a)
+print(a)
+print(type(b)) #int to string
+
+s = "Aadi"
+a=21
+print("String: "+s+ "\nNumber: " + str(a))
+print(type(a))  #string to int
