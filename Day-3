@@ -1,0 +1,20 @@
+1.) #Simple Calc
+
+print("Welcome to the our calculator system")
+a = int(input("Enter First Number: "))
+b = int(input("Enter Second Number: "))
+print("a + b = {}".format(a + b))
+print("a - b = {}".format(a - b))
+print("a * b = {}".format(a * b))
+print("a / b = {}".format(a / b))
+print("a % b = {}".format(a % b))
+print("a // b = {}".format(a // b))
+print("a * b = {}".format(a * b))
+
+
+
+2.) #Find age
+birth_year = input("What's your Birth year?")
+age = 2020 - int(birth_year)
+print("your age is: ")
+print(age)
