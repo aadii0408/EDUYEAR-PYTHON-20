@@ -1,0 +1,21 @@
+#1) use string functions to count the occurrence of 'y' in a word given by user.
+
+str= 'EduYear'
+c = 'Y'
+count = str.count(c)
+print("the num of Y:",count)
+
+
+#2) take input of a string and print it's even indexed characters.
+
+str = input("Enter a string\n")
+# create a string with characters at multiples of 2
+a = str[::2]
+print(a)
+
+#3) create a program to swap case. Using string functions
+
+str = 'EdUyEaR'
+st = str.swapcase();
+print(st)
+
