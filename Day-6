@@ -1,0 +1,58 @@
+
+#1.) Count even numbers and odd numbers
+list1 = [100, 721, 84,5, 36, 993, 10]
+even_count, odd_count = 0, 0
+for num in list1:
+    if num % 2 == 0:
+        even_count += 1
+    else:
+        odd_count += 1         
+print("Even numbers in the list: ", even_count)
+print("Odd numbers in the list: ", odd_count)
+
+
+#2.) Tell max and min of the list 
+# ( without using any inbuilt function like max(),min())
+
+
+arr = [20, 11, 94, 5, 96, 91, 1,-20,1000]
+min = arr[0]
+max = arr[0]
+for a in arr:
+    if a < min:
+        min = a
+    if a > max:
+        max = a
+print("The minimum number in the list is: ", min)
+print("The maximum number in the lit is: ", max)
+
+
+#3.) Check whether the whole list is palindrome or not
+# ( eg. [1,2,1] gives yes for palindrome while [1,2,2] doesn't
+
+
+number=int(input("Enter any number :"))
+temp=number
+
+reverse_num=0
+while(number>0):
+
+    digit=number%10
+    
+    reverse_num=reverse_num*10+digit
+    
+    number=numbe//10
+
+if(temp==reverse_num):
+    print("The number is palindrome!")
+else:
+    print("Not a palindrome!")"""
+
+#4.) Print the numbers which are palindrome inside the list
+
+
+mynum = [10, 121, 133, 155, 141, 252] 
+for i in mynum:
+    n = str(i)
+    if n == n[::-1]:
+        print(i, end = " ")
